@@ -1,0 +1,32 @@
+{
+    "name": "vite-unstyled-tailwind",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "story:dev": "histoire dev",
+        "story:build": "histoire build",
+        "story:preview": "histoire preview"
+    },
+    "dependencies": {
+        "primevue": "^4.1.1",
+        "tailwindcss-primeui": "^0.3.4",
+        "vue": "^3.4.27"
+    },
+    "devDependencies": {
+        "@histoire/plugin-vue": "^0.17.17",
+        "@primevue/auto-import-resolver": "^4.1.1",
+        "@vitejs/plugin-vue": "^5.0.5",
+        "autoprefixer": "^10.4.15",
+        "histoire": "^0.17.17",
+        "postcss": "^8.4.29",
+        "postcss-import": "^16.1.0",
+        "tailwindcss": "^3.4.1",
+        "unplugin-vue-components": "^0.27.4",
+        "vite": "^5.2.13",
+        "vite-plugin-vue-devtools": "^7.5.2"
+    }
+}
